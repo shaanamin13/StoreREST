@@ -30,6 +30,7 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="app.js" />
     <Compile Include="app1.js" />
     <Compile Include="controllers\store.js" />
     <Compile Include="core\db.js" />
