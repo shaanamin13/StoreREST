@@ -1,0 +1,16 @@
+{
+    "name": "StoreREST",
+    "version": "0.0.0",
+    "description": "StoreREST",
+    "main": "app1.js",
+    "author": {
+        "name": "Shaan",
+        "email": ""
+    },
+    "dependencies": {
+        "mssql": "^2.2.0"
+    },
+    "scripts": {
+        "start": "node app.js"
+  }
+}
