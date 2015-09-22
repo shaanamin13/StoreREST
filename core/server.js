@@ -89,6 +89,4 @@ http.createServer(function (req, resp) {
             }
             break;
     }
-}).listen(settings.webPort, function () {
-    console.log("Started listening at:" + settings.webPort);
-});
+}).listen(process.env.PORT);
